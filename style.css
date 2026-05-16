@@ -20,7 +20,11 @@ body {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  /* New grid inside the header */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
+
 .sidebar {
   background-color: #1992d4;
   grid-column-start: 1;
@@ -117,4 +121,72 @@ body {
 .search-icon {
   width: 24px;
   height: 24px;
+}
+
+.alert-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.search-section,
+.username-section,
+.profile-section {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.profile-icon-big {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-icon-big img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-icon-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-icon-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-right-section {
+  font-weight: 700;
+}
+
+.profile-section {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding-left: 80px;
+  padding-top: 8px;
+}
+
+.profile-btn-section {
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.header-btn {
+  border-radius: 50px;
+  padding: 10px 25px;
+  background-color: #1992d4;
+  color: #fefeff;
+  border: none;
+  font-weight: 700;
+  font-family: inherit;
 }
