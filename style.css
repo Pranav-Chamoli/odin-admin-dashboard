@@ -129,7 +129,6 @@ body {
 }
 
 .search-section,
-.username-section,
 .profile-section {
   display: grid;
   grid-auto-flow: column;
@@ -170,11 +169,11 @@ body {
   align-items: center;
   gap: 32px;
   padding-left: 80px;
-  padding-top: 8px;
+  padding-top: 20px;
 }
 
 .profile-btn-section {
-  padding-top: 32px;
+  padding-top: 44px;
   padding-left: 40px;
   padding-bottom: 24px;
   display: flex;
@@ -189,4 +188,38 @@ body {
   border: none;
   font-weight: 700;
   font-family: inherit;
+}
+
+.username-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 70px 1fr;
+  gap: 24px;
+  font-weight: 700;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-bottom: 16px;
+}
+
+.greeting {
+  font-size: 12px;
+}
+
+.user-name {
+  font-size: 24px;
+}
+
+.search-section {
+  padding-left: 40px;
+  padding-top: 24px;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+}
+
+.search-bar {
+  border: none;
+  background-color: #e3e8f1;
+  border-radius: 50px;
+  height: 32px;
 }
