@@ -223,3 +223,123 @@ body {
   border-radius: 50px;
   height: 32px;
 }
+
+.main-content-section-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.project-section {
+  padding-top: 32px;
+  padding-left: 16px;
+}
+
+.project-section-cards {
+  width: 400px;
+  height: 220px;
+  background-color: #fefeff;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 8px 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-section-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding-top: 10px;
+}
+
+.project-section-card-title {
+  font-weight: 700;
+  padding-top: 24px;
+  padding-left: 16px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.project-section-card-content {
+  padding-left: 16px;
+  padding-right: 16px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: #5d5d5d;
+}
+
+.yellow-bar {
+  width: 8px;
+  height: 100%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f0b429;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.favourite-icon,
+.view-icon,
+.repo-icon {
+  width: 24px;
+  height: 24px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.project-section-card-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+  padding-right: 24px;
+}
+
+.announcement-section {
+  padding-top: 32px;
+  padding-left: 24px;
+}
+
+.announcement-section-card {
+  width: 320px;
+  height: 320px;
+  background-color: #fefeff;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 8px 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.announcement-section-card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.announcement-section-card-container {
+  padding-top: 10px;
+}
+
+.announcement-section-card-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.announcement-section-card-content {
+  color: #5d5d5d;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+
+.horizontal-line {
+  border-top: 1px solid #ccc;
+  width: 250px;
+  padding-top: 16px;
+}
